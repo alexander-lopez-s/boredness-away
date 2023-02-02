@@ -13,8 +13,13 @@ const Activities = () => {
     
     return (
         <div className="container">
-            <button type="submit" onClick={handleClick} >Suggest me something!</button>
-            <h2>{activity.activity}</h2>
+                  <h1>Are you bored?</h1>
+                  <img src="https://res.cloudinary.com/dembmmjyq/image/upload/v1675374397/bored_s1hdud.png" alt="bored-hippo"></img>
+                  <h2>We have some plans for you!</h2>
+            <button type="submit" onClick={handleClick} >PUSH ME!</button>
+            <div className="activity">
+            <p>{activity.activity}</p>
+            </div>
         </div>
       )
 }
